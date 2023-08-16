@@ -10,7 +10,6 @@
 5. calculate new deposit total and set the value to the deposit total
 
 6. get current balance total
-
 7. calculate the new balance and set it to the balance total element
 */
 
@@ -41,6 +40,9 @@ document.getElementById('btn-deposit').addEventListener('click',function(){
   const newBalanceTotal = previousBalanceTotalAmount+newDepositAmount;
   balanceTotalElement.innerText = newBalanceTotal;
 
+
+
+   
 
 
 
